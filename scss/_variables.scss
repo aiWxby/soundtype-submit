@@ -1,0 +1,31 @@
+$main-bg-color: #141414;
+$main-container-color: #1b1b1b;
+$main-tc: #d7d7d7;
+$main-theme-tc: #b08dff;
+
+@font-face{
+    font-family: lightFont;
+    src: url(../font/OpenSansCondensed-Light.ttf);
+}
+
+@font-face{
+    font-family: boldFont;
+    src: url(../font/OpenSansCondensed-Bold.ttf);
+}
+
+@font-face{
+    font-family: titleFont;
+    src: url(../font/BebasNeue-Regular.ttf);
+}
+@font-face{
+    font-family: titleScriptFont;
+    src: url(../font/BadScript-Regular.ttf);
+}
+
+.mt-05{
+    margin-top: 0.5rem;
+}
+
+.mt-1{
+    margin-top: 1rem;
+}
