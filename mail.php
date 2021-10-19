@@ -35,7 +35,7 @@ require 'src/SMTP.php';
             $mail->Host       = 'smtp.gmail.com';
             $mail->SMTPAuth   = true;
             $mail->Username   = 'artxn.register@gmail.com';
-            $mail->Password   = 'Artx.0686';
+            //$mail->Password   = '';
             $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
             $mail->Port       = 587;
             $mail->CharSet    = 'UTF-8';
